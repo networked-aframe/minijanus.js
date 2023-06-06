@@ -11,8 +11,8 @@ function JanusPluginHandle(session) {
 }
 
 /** Attaches this handle to the Janus server and sets its ID. **/
-JanusPluginHandle.prototype.attach = function(plugin) {
-  var payload = { plugin: plugin, "force-bundle": true, "force-rtcp-mux": true };
+JanusPluginHandle.prototype.attach = function(plugin, loop_index) {
+  var payload = { plugin: plugin, loop_index, "force-bundle": true, "force-rtcp-mux": true };
   return this.session.send("attach", payload).then(resp => {
     this.id = resp.data.id;
     return resp;
