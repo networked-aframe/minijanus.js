@@ -1,7 +1,6 @@
 # minijanus.js
 
-[![npm](https://img.shields.io/npm/v/minijanus.svg)](https://www.npmjs.com/package/minijanus)
-[![Build Status](https://travis-ci.org/mozilla/minijanus.js.svg?branch=master)](https://travis-ci.org/mozilla/minijanus.js)
+[![npm](https://img.shields.io/npm/v/@networked-aframe/minijanus.svg)](https://www.npmjs.com/package/@networked-aframe/minijanus)
 
 A super-simplistic and -minimal wrapper for talking to the [Janus signalling API][api-docs]. Developed for use with
 Janus as a web game networking backend via [janus-plugin-sfu][], but fundamentally plugin-agnostic. Designed to
@@ -21,7 +20,7 @@ If you want a similar but moderately more featureful wrapper, check out [minnie-
 
 [api-docs]: https://janus.conf.meetecho.com/docs/rest.html
 [janus.js]: https://github.com/meetecho/janus-gateway/blob/master/html/janus.js
-[janus-plugin-sfu]: https://github.com/mquander/janus-plugin-sfu
+[janus-plugin-sfu]: https://github.com/networked-aframe/janus-plugin-sfu
 [minnie-janus]: https://github.com/michaelfranzl/minnie-janus
 
 ## Example
